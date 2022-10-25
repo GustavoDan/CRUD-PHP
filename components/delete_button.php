@@ -1,0 +1,1 @@
+<button class="btn btn-danger text-warning rounded-circle py-0 px-2 d-flex position-absolute end-0" data-bs-toggle="modal" data-bs-target="#<?php echo $modal_id ?>">-</button>
