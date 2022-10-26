@@ -6,7 +6,7 @@
         <select class="form-select" name="estado" onChange="populate_cidades(this)">
             <option></option>
             <?php
-            include_once "locations/ibge_api.php";
+            include_once "../../locations/ibge_api.php";
             $estados = get_estados();
             foreach ($estados as &$estado) {
             ?>
